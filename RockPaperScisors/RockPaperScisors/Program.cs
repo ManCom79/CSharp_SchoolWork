@@ -88,7 +88,7 @@
                     case "2":
                         {
                             Console.WriteLine($"User has won {userWins} times. Computer won {computerWins} times. There were {tieGames} tied games.");
-                            Console.WriteLine($"Your win {((userWins)/(userWins + computerWins + tieGames))*100} percent of time.");
+                            Console.WriteLine($"Your win {(((double)userWins)/(userWins + computerWins + tieGames))*100} percent of time.");
                             continue;
                         }
                     case "3":
